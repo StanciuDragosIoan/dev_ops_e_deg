@@ -43,3 +43,6 @@
 		each time you re-type the cmd will show it with different flags/options
 
 	ctr + t (reverses 2 letters the 1 on which the cursor is and the 1 to its left)
+
+	sudo lshw -C memory (see ram/memory/system details)
+
