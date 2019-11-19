@@ -1,0 +1,25 @@
+Introduction to Hardware
+	(what's inside)
+
+
+	CPU - Central Processing Unit
+
+		The CPU is the brain of the PC (where the actual computing is done).The type
+		and family of the CPU have a major info on our OS as programs are desinged to 
+		work on specific types of processors.
+
+		in the desktop computer world there are 2 main types of CPU x86 and x86-64
+
+		the CPU is inserted in the motherboard (with the pins downwards)
+
+
+		32-bit and 64-bit processors
+
+		64-bit processor wasreleased by intel for the first time (was initially designed
+		for servers)
+
+		64-bit is usually better/faster
+
+		32-bit is usually limited to 4gb rams of internal memory, 64 bit can support more
+
+		

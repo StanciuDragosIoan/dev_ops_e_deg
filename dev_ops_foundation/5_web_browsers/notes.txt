@@ -1,0 +1,25 @@
+Web Browsers
+
+	Linux supports almost all browsers on the market (except some like internet explorer)
+
+	Mozilla is the default browser in linux
+
+	Lynx = text based browser (used for testing websites from inside a text environment)
+
+
+E mail clients
+
+	programs that allow sending/receiving messages
+	before you can use one of those e mail clients, you must supply your email
+	server's information like the IP address + credentials
+
+	Mutt = text based e-mail client
+
+
+Office Programs
+
+	word processor, spreadsheet, presentation, database application, etc..
+	Linux has LibreOffice
+	
+		there is approximate portability between linux formats and windows specific formats 
+

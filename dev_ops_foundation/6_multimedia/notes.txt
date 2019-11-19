@@ -1,0 +1,58 @@
+Multimedia
+
+	audacity - for editing sounds/listening to music (can work with many formats and effects)
+
+	blender - for 3D graphics
+
+	GIMP - for graphic editing (similar to photoshop)
+
+	
+Linux as a server
+
+	This is where the real power of linux is manifested. All servers use a linux/onix distribution.
+
+	A server = may refer to 2 things:
+		
+		1. a program that runs in the background and serves some service or function to a 
+		number of users
+
+		2. a machine that does this task
+
+	For instance a web server can refer to both a program and a machine
+
+	Apache HTTPD: one of the most popular webservers on the internet (used with the LAMP stack)
+
+	Nginx: newer than apache (1995) nginx was released in 2002 (system admins usually preffer to use
+	both apache and nginx - apache is powerful when serving dynamic content while nginx is powerful
+	when serving static content)
+
+	static vs dynamic 
+
+		(dynamic serves content on the fly, the page is created when I visit it)
+
+		(static means a static file - it is saved on the server and it is served when I visit the
+		website)
+
+
+
+Software management:
+
+	Ubuntu Software center 
+		this has many programs that we might need, all the programs in the ubuntu repos
+
+	apt-get
+		used to download and install programs and packages from repositories (a repo is like
+		a website used to download packages - they are made and maintained by the vendor e.g.
+		ubuntu repo is maintained by ubuntu and software can be downloaded either from the 
+		ubuntu software or with apt-get cmd)
+
+		apt-get takes cares of dependencies (will download and install dependencies too before 
+		installing the program)
+
+
+	dpkg
+		program used to install the software (it is a low lvl program used to install 1 package)
+		we give the package to it and it will install it (it will not search/download dependencies)
+		it is used behind the scenes with apt-get or Ubuntu Software center
+
+		if we are using 

@@ -1,0 +1,3 @@
+DevOps is a way of building an automated digital pipeline which makes it easy and efficient for developers to create high quality software. 
+
+A DevOps engineer needs to understand the software dev lifecycle and create tools to solve operational challenges

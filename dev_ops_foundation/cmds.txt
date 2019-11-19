@@ -1,0 +1,45 @@
+#CMDS:
+
+	ls (cmd) displays the content of the current directory
+
+	ls /var (displays the contents of the var directory)
+	
+	pwd (print working directory)
+
+	cd .. (move to parent directory)
+
+	cd ../.. (move 2 directories up)
+
+	launch firefox /usr/bin/firerox (or simply type firefox)
+			the 'firefox' cmd works thanks to the path variable (which contains dat)
+
+		echo $PATH (display path)
+			the path var contains the locations in which the system will look when we type
+			a cmd that is not in its full path
+
+			when I type firefox, browser starts because the location where fiirefox is 		installed is in the $PATH var:
+		
+	/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+	*usr/bin is there in the $PATH
+
+	*the system will look for the directories in the $PATH var in order 
+		first will look in usr/local/sbin, then in usr/local/bin, then usr/sbin, then usr/bin,
+		etc... so for instance having 2 programs installed with the same name in 2 different 
+		locations in the $PATH, the first one will be ran first 
+
+	the ./test.sh (the . cmd refers to the current path -where I currently am in the folder structure)
+	otherwise for test.sh I'd have to run specifying the full path)
+
+	history (prints all cmds)
+	history 7 (prints last 7 cmds)
+	firefox (runs browser if browser installed in 1 folder in the $path var)
+	$firefox &  (break after & runs firefox in backgorund and leaves terminal open)
+
+	press tab for cmd/filename completion
+
+	ctr +a (takes u to the beginning of the row just like home)
+
+	ctr +r (search for a specific cmd type the cmd after ctr+R)
+		each time you re-type the cmd will show it with different flags/options
+
+	ctr + t (reverses 2 letters the 1 on which the cursor is and the 1 to its left)

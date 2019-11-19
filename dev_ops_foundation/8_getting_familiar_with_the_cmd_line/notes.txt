@@ -1,0 +1,88 @@
+Getting familiar with the command line
+
+	a lot of functionality in linux can be done through the GUI, but power users
+	preffer the cmd line to perform the tasks more quickly and more efficiently
+
+
+	everything in the GUI can be done through the cmd line
+
+	cmd line will offer more options/ways to execute a program
+
+	we can put multiple programs in a shell script (a file containing multiple intructions that
+	get executed 1 after another) ->good way to automate tasks
+
+	we can open a terminal from the system or connect remotely with a client like putty
+
+		ls (cmd) displays the content of the current directory
+
+		ls /var (displays the contents of the var directory)
+
+		pwd (print working directory)
+
+		cd .. (move to parent directory)
+
+		cd ../.. (move 2 directories up)
+
+		launch firefox /usr/bin/firerox (or simply type firefox)
+			the 'firefox' cmd works thanks to the path variable (which contains dat)
+
+		echo $PATH (display path)
+			the path var contains the locations in which the system will look when we type
+			a cmd that is not in its full path
+
+			when I type firefox, browser starts because the location where fiirefox is installed is in the $PATH var:
+		
+	/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+	*usr/bin is there in the $PATH
+
+	*the system will look for the directories in the $PATH var in order 
+		first will look in usr/local/sbin, then in usr/local/bin, then usr/sbin, then usr/bin,
+		etc... so for instance having 2 programs installed with the same name in 2 different 
+		locations in the $PATH, the first one will be ran first 
+
+	the ./test.sh (the . cmd refers to the current path -where I currently am in the folder structure)
+	otherwise for test.sh I'd have to run specifying the full path)
+
+ 
+
+	The filesystem tree in Linux:
+
+		I have the root: /
+			Under root I have directories like /home, /var, /media, etc..
+				Under these I have the users home/dragos, the logs home/log and	/media/cdrom 
+
+
+
+
+
+#CMDS:
+
+	ls (cmd) displays the content of the current directory
+
+	ls /var (displays the contents of the var directory)
+	
+	pwd (print working directory)
+
+	cd .. (move to parent directory)
+
+	cd ../.. (move 2 directories up)
+
+	launch firefox /usr/bin/firerox (or simply type firefox)
+			the 'firefox' cmd works thanks to the path variable (which contains dat)
+
+		echo $PATH (display path)
+			the path var contains the locations in which the system will look when we type
+			a cmd that is not in its full path
+
+			when I type firefox, browser starts because the location where fiirefox is 		installed is in the $PATH var:
+		
+	/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+	*usr/bin is there in the $PATH
+
+	*the system will look for the directories in the $PATH var in order 
+		first will look in usr/local/sbin, then in usr/local/bin, then usr/sbin, then usr/bin,
+		etc... so for instance having 2 programs installed with the same name in 2 different 
+		locations in the $PATH, the first one will be ran first 
+
+	the ./test.sh (the . cmd refers to the current path -where I currently am in the folder structure)
+	otherwise for test.sh I'd have to run specifying the full path)
