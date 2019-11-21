@@ -1,0 +1,36 @@
+The man pages:
+
+    man stands for manual. Most cmds we will use on the command line have a 'manual'
+    that explains their usage and various options
+
+    in order to display the man page of a cmd type the cmd and then a space and then man
+
+    e.g. man grep
+
+    besides cmds in man pages we can have configuration files, libraries, etc.. referenced
+    and explained
+
+    the man pages consist of 9 sections:
+
+        1.executable shell commands
+        2.kernel system calls
+        3.library calls
+        4.device files
+        5.file formats
+        6.games
+        7.miscellaneous, character set standards, etc..
+        8.system management and administration commands (like mount)
+        9.kernel function	
+
+    if we type in man passwd (cmd to reset a user's password) we get section 1 of the manual
+    printed
+
+    if we type in man 5 passwd (we get section 5), etc..
+
+    man mount (displays section 8 directly)
+
+    Searching the man pages faster
+        type whatis and cmd:
+            whatis grep (shows in 1 line what grep does)
+
+

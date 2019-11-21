@@ -46,3 +46,7 @@
 
 	sudo lshw -C memory (see ram/memory/system details)
 
+	passwd (changes password for a user)
+
+	sudo apt install manpages-posix (install missing man pages)
+
