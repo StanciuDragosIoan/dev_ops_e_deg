@@ -1,4 +1,6 @@
-desktop environment = a graphical tool that displays icons and menus on the screen. They control the appearance and provide programs/utilities that help with common tasks like file management
+desktop environment = a graphical tool that displays icons and menus on the screen. 
+They control the appearance and provide programs/utilities that help with common tasks 
+like file management
 
 among the most prominent environments are: Unity, GNOME, KDE, Xfce
 
@@ -6,7 +8,7 @@ nautilus = main file explorer in linux (default file explorer - cabinet icon)
 
 in home : we have only user related elements (NO system elements)
 
-in 'other locations' -> computer (we can see the rrot directory of the system) in 'computer'
+in 'other locations' -> computer (we can see the root directory of the system) in 'computer'
 we find everything on the pc
 
 in 'other locations' we also have the 'network' button to connect to networks
