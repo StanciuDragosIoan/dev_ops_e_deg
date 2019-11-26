@@ -1,0 +1,52 @@
+Inside the man pages
+
+    running in terminal 'apropos' + cmd gives us all entries in the man pages containing the
+    respective command
+
+    e.g. 
+        apropos hash
+        apropos grep
+        etc..
+
+    similar command is man -k
+    
+    e.g.
+        man -k hash
+        man -k grep
+        etc...
+
+    man-pages can be navigated with the arrow keys (1 line) or with pagedown/spacebar
+    ctr+f (scroll down 1 page) or ctr+b (scroll 1 page back)
+
+    searching for a word in man pages:
+        type /word while inside the man page (e.g /sort will search for sort)
+
+        press n to go from 1 occurence to the next
+
+    man-page drawbacks:
+        absence of hyperlinks
+        
+    
+    the info pages try to fix the drawbacks from the man pages (e.g. they have hyperlinks)
+
+    info pages work like a node tree
+
+    type info cmd to get the info page (e.g. info ls)
+
+    note while inside the info page I can navigate with the arrows and go on a link 
+        the cursor will blink when I am on the link and if I hit enter, it takes me to the
+        respective page
+
+    press u to go up to the initial page
+
+    press n to move forward in the list of links (press p to go back)
+        if I have links:
+
+            link a
+            link b
+            link c
+        
+        and I am on link b page (press n and it takes me to page c, press u and it takes me
+        back to link b page)
+
+    q = quits manual

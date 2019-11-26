@@ -9,7 +9,8 @@ Multimedia
 	
 Linux as a server
 
-	This is where the real power of linux is manifested. All servers use a linux/onix distribution.
+	This is where the real power of linux is manifested. All servers use a linux/onix 
+	distribution.
 
 	A server = may refer to 2 things:
 		
@@ -22,16 +23,16 @@ Linux as a server
 
 	Apache HTTPD: one of the most popular webservers on the internet (used with the LAMP stack)
 
-	Nginx: newer than apache (1995) nginx was released in 2002 (system admins usually preffer to use
-	both apache and nginx - apache is powerful when serving dynamic content while nginx is powerful
-	when serving static content)
+	Nginx: newer than apache (1995) nginx was released in 2002 (system admins usually preffer 
+	to use both apache and nginx - apache is powerful when serving dynamic content while nginx 
+	is powerful when serving static content)
 
 	static vs dynamic 
 
 		(dynamic serves content on the fly, the page is created when I visit it)
 
-		(static means a static file - it is saved on the server and it is served when I visit the
-		website)
+		(static means a static file - it is saved on the server and it is served when I visit 
+		the website)
 
 
 
