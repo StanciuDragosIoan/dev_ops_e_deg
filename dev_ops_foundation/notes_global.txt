@@ -102,6 +102,25 @@ install composer
 	*this moves to bin for $PATH VAr
 
 
+enable .htaccess and mod rewrite:
+
+	enable mod rewrite:
+		# sudo a2enmod rewrite
+		# sudo systemctl restart apache2
+
+	set up .htaccess:
+		sudo nano /etc/apache2/sites-available/000-default.conf
+		add to the <VirtualHost *:80> block, starting with the first line:
+
+		    <Directory /var/www/html>
+			Options Indexes FollowSymLinks MultiViews
+			AllowOverride All
+			Require all granted
+		    </Directory>
+	
+		sudo systemctl restart apache2
+
+
 
 
 
