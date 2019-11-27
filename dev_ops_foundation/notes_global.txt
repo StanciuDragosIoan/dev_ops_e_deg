@@ -84,6 +84,17 @@ Install vs code
 	sudo apt update
 	sudo apt install software-properties-common apt-transport-https wget
 
+	wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+	sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+	sudo apt update
+	sudo apt install code
+
+install git
+
+	sudo apt update
+	sudo apt install git
+	git --version
+
 
 install composer
 
@@ -95,7 +106,7 @@ install composer
 
 	php -r "if (hash_file('SHA384', 'composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"   
 
-	*the cmd above hsould return 'installer verified'
+	*the cmd above should return 'installer verified'
 
 	sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer  
 	
@@ -119,10 +130,6 @@ enable .htaccess and mod rewrite:
 		    </Directory>
 	
 		sudo systemctl restart apache2
-
-
-
-
 
 
 
