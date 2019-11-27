@@ -113,6 +113,8 @@ install composer
 	*this moves to bin for $PATH VAr
 
 
+	read more: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-18-04
+
 enable .htaccess and mod rewrite:
 
 	enable mod rewrite:
