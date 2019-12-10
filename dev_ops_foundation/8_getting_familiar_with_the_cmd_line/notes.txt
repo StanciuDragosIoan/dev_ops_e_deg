@@ -24,7 +24,7 @@ Getting familiar with the command line
 		cd ../.. (move 2 directories up)
 
 		launch firefox /usr/bin/firerox (or simply type firefox)
-			the 'firefox' cmd works thanks to the path variable (which contains dat)
+			the 'firefox' cmd works thanks to the path variable (which contains that)
 
 		echo $PATH (display path)
 			the path var contains the locations in which the system will look when we type

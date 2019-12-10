@@ -47,7 +47,7 @@ Software management:
 		ubuntu repo is maintained by ubuntu and software can be downloaded either from the 
 		ubuntu software or with apt-get cmd)
 
-		apt-get takes cares of dependencies (will download and install dependencies too before 
+		apt-get takes care of dependencies (will download and install dependencies too before 
 		installing the program)
 
 

@@ -15,7 +15,7 @@ Introduction to Hardware
 
 		32-bit and 64-bit processors
 
-		64-bit processor wasreleased by intel for the first time (was initially designed
+		64-bit processor was released by intel for the first time (was initially designed
 		for servers)
 
 		64-bit is usually better/faster
