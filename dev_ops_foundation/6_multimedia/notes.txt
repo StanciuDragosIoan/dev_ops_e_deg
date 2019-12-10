@@ -9,7 +9,7 @@ Multimedia
 	
 Linux as a server
 
-	This is where the real power of linux is manifested. All servers use a linux/onix 
+	This is where the real power of linux is manifested. All servers use a linux/unix 
 	distribution.
 
 	A server = may refer to 2 things:
