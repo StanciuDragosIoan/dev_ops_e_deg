@@ -1,0 +1,84 @@
+File Management
+
+    Linux uses files for virtually everything
+
+    From storing configuration settings to access remote network resources to communicating
+    with hardware devices, all of this is done through files.
+
+    In Linux we have 2 types of files:
+
+        system files
+
+        and
+
+        user files
+    
+    Files are not alike for instance documents created using 
+    the Write application are not as critical to the system as the
+    /etc/passwd file for instance
+
+    Modifying a user file won't break stuff similarly to Modifying
+    a system file (which can bring the system down)
+
+    For this reason, the critical files (the system files) are protected
+    fron accidental (or intentional) altering. On the other hand, files
+    created by users (user files) can be modified or deleted by their
+    owners;
+
+    Example of system files:
+
+        Startup scripts (files that launch services -called daemons- when
+        the OS boots)
+            *daemons are launched by startup scripts (other example of a 
+            system file)
+
+        Program files (used by the installed software)
+
+        Secondary program files: icons, images, fonts, which support the main software
+
+        System configuration files (they contain config that defines how the
+        system works)
+
+        Files that contain important data (user info/passwords)
+            *database files (e.g. /etc/passwd file)
+
+        Event-logging files (system activity is logged in these)
+
+
+
+        Who can work with the system files?
+
+        System files are protected from regular users. Only the root user can change them.
+
+            Even when owning a system, it is recommended/good practice to use a regular
+            user account and access the root priviledges only when installing/uninstallign software
+            or configuring one or some of the system files
+
+
+        The FileSystem Hierarchy Standard (FHS)
+
+        Linux has many flavours but there is a standard location for all important files
+
+        the FHS classifies files based on the following:
+
+            2 types of files:
+
+                    Shareable (can be shared across multiple systems)
+
+                    and
+
+                    non-Shareable (they contain info specific to the system like the IP address, hostname, etc..)
+
+
+            2 types of 'variability'
+
+                    Variable files (files that can be changed either by the system or by users -> e.g. log files)
+
+                    and
+
+                    non-Variable files (files that are not likely to change like program binaries)
+
+                        *a file may fall into any combination of the above categories
+
+
+
