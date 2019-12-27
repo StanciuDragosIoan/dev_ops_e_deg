@@ -132,6 +132,16 @@ enable .htaccess and mod rewrite:
 		    </Directory>
 	
 		sudo systemctl restart apache2
+	
+	kill a process on a specific port:
+		kill -9 $(lsof -t -i:5000)
+
+
+
+
+mv /home/dragos/.symfony/bin/symfony /usr/local/bin/symfony
+
+export PATH="$HOME/.symfony/bin:$PATH"
 
 
 
