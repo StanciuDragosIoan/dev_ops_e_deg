@@ -145,3 +145,17 @@ export PATH="$HOME/.symfony/bin:$PATH"
 
 
 
+install node:
+	
+	sudo apt update
+	sudo apt install nodejs
+	*this installs an older version
+
+update to latest (stable LTS):
+	sudo npm cache clean -f
+	sudo npm install -g n
+	sudo n stable
+
+update to latest not stable:
+	sudo n latest
+
