@@ -75,4 +75,14 @@
 
 
     q = quits manual
+
+	### New Stuff
+
+	sudo kill -9 process_id (kills process) 
+
+	htop (live process list)
+
+	netstats
+	
+	cmd shut down pc after certain time: sudo shutdown -h 1 (1 is number of mins here..)
  
