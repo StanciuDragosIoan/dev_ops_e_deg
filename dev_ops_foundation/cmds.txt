@@ -82,7 +82,15 @@
 
 	htop (live process list)
 
+	shutdown pc at certain time:
+	
+		shutdown -h now (shuts down system now)
+		shutdown -h 30 (shuts down in 30 min)
+		shutdown -c (cancels shutdown)
+ 		shutdown +1 "PC closing" (shutdown in 1 min with a msg)	
+		shutdown --help (see all options)
+
 	netstats
 	
-	cmd shut down pc after certain time: sudo shutdown -h 1 (1 is number of mins here..)
+	
  
